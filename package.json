@@ -1,0 +1,36 @@
+{
+  "name": "@sparkleui/prettier-config",
+  "version": "1.0.0",
+  "description": "A shareable Prettier config used by Sparkle UI.",
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "bugs": {
+    "url": "https://github.com/danieledeluca/prettier-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieledeluca/prettier-config.git"
+  },
+  "license": "MIT",
+  "author": "Daniele De Luca",
+  "main": "prettier.config.js",
+  "files": [
+    "prettier.config.js"
+  ],
+  "scripts": {
+    "format": "prettier . --write",
+    "release": "np --message='release: v%s'"
+  },
+  "dependencies": {
+    "prettier-plugin-packagejson": "^2.5.2"
+  },
+  "devDependencies": {
+    "np": "^10.0.7",
+    "prettier": ">=3"
+  },
+  "peerDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
